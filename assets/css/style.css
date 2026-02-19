@@ -179,6 +179,110 @@ header .container .down ul li a:hover::after {
 
 /* ::::::::: main nav :::::::::: */
 
+/* main */
+/* banner section */
+main #banner {
+}
+main #banner .swiper {
+}
+main #banner .swiper .swiper-wrapper {
+}
+main #banner .swiper .swiper-wrapper .swiper-slide {
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .slide-1 {
+  /* background: red; */
+  background-image: url(/assets/img/slider-2.jpg);
+  width: 100%;
+  height: 80vh;
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .slide-2 {
+  /* background: red; */
+  background-image: url(/assets/img/slider-3.jpg);
+  width: 100%;
+  height: 80vh;
+}
+main #banner .swiper .swiper-wrapper .swiper-slide .bg-slide .container {
+  height: 80vh;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont {
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--white-color);
+  text-shadow: 0rem 0rem 0.22rem red;
+  margin-bottom: 1rem;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  p{
+  font-size: 1.4rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  color: var(--black-color);
+  margin-bottom: 1rem;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  .btn{
+  padding: .72rem 1.6rem;
+  color: var(--white-color);
+  border-radius: 1.5rem;
+}
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  .btn:hover{
+    color: var(--primary-color);
+
+  }
+main
+  #banner
+  .swiper
+  .swiper-wrapper
+  .swiper-slide
+  .bg-slide
+  .container
+  .text-cont
+  h1
+  > span {
+  color: var(--primary-color);
+  text-shadow: 0rem 0rem 0.22rem #fff;
+}
+
 /* ::::::::: footer nav :::::::::: */
 
 /* ::::::: ***** MEDIA QUERY  **** ::::: */
@@ -246,21 +350,21 @@ header .container .down ul li a:hover::after {
     align-items: center;
     height: 10vh;
   }
-  header .container .top .top-left{
+  header .container .top .top-left {
     width: 40vw;
   }
-  header .container .top .top-left img{
+  header .container .top .top-left img {
     width: 100%;
   }
 
   header .container .top .top-right {
     display: flex;
-    gap: .51rem;
+    gap: 0.51rem;
   }
 
   header .container .top .top-right span a {
     color: var(--black-color);
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
 
   header .container .top .top-right span:hover a {
@@ -278,9 +382,9 @@ header .container .down ul li a:hover::after {
   }
   header .container .down ul li {
   }
-   header .container .down ul li a{
-    font-size: .4rem;
-   }
+  header .container .down ul li a {
+    font-size: 0.4rem;
+  }
   header .container .down ul li a {
     color: var(--black-color);
     position: relative;
