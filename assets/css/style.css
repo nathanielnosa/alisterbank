@@ -181,14 +181,6 @@ header .container .down ul li a:hover::after {
 
 /* main */
 /* banner section */
-main #banner {
-}
-main #banner .swiper {
-}
-main #banner .swiper .swiper-wrapper {
-}
-main #banner .swiper .swiper-wrapper .swiper-slide {
-}
 main #banner .swiper .swiper-wrapper .swiper-slide .slide-1 {
   /* background: red; */
   background-image: url(/assets/img/slider-2.jpg);
@@ -204,15 +196,7 @@ main #banner .swiper .swiper-wrapper .swiper-slide .slide-2 {
 main #banner .swiper .swiper-wrapper .swiper-slide .bg-slide .container {
   height: 80vh;
 }
-main
-  #banner
-  .swiper
-  .swiper-wrapper
-  .swiper-slide
-  .bg-slide
-  .container
-  .text-cont {
-}
+
 main
   #banner
   .swiper
@@ -237,7 +221,7 @@ main
   .bg-slide
   .container
   .text-cont
-  p{
+  p {
   font-size: 1.4rem;
   font-weight: bold;
   text-transform: capitalize;
@@ -252,8 +236,8 @@ main
   .bg-slide
   .container
   .text-cont
-  .btn{
-  padding: .72rem 1.6rem;
+  .btn {
+  padding: 0.72rem 1.6rem;
   color: var(--white-color);
   border-radius: 1.5rem;
 }
@@ -265,10 +249,9 @@ main
   .bg-slide
   .container
   .text-cont
-  .btn:hover{
-    color: var(--primary-color);
-
-  }
+  .btn:hover {
+  color: var(--primary-color);
+}
 main
   #banner
   .swiper
@@ -282,8 +265,30 @@ main
   color: var(--primary-color);
   text-shadow: 0rem 0rem 0.22rem #fff;
 }
+/* partnera */
+main #partner {
+  background: var(--light-grey-color);
+  padding: 1rem 0;
+}
+main #partner .container {
+  padding: 2rem 0;
+  border-bottom: 1px solid var(--black-color);
+}
+main #partner .container .text {
+  width: 30%;
+}
+
+main #partner .container .logo {
+  width: 70%;
+}
+main #partner .container .logo img {
+  width: 12vw;
+  padding: 0 1rem;
+}
 
 /* ::::::::: footer nav :::::::::: */
+footer {
+}
 
 /* ::::::: ***** MEDIA QUERY  **** ::::: */
 /* ::::::: ***** MEDIA QUERY  **** ::::: */
